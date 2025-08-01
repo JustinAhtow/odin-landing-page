@@ -72,13 +72,16 @@ ul {
     align-items: center;
     max-width: 500px;
     flex: 1;
-    background-color: #3882f6;
+    background-color: #e5e7eb;
 }
 
 .home-button {
     padding: 10px 25px;
     font-size: 12px;
-    color: #3882f6;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 10px;
 }
 
 h1 {
@@ -192,3 +195,17 @@ h2 {
 
 /* end cta */
 
+
+
+
+/* start footer */
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    padding: 50px 0;
+}
+
+/* end footer */
