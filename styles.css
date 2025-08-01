@@ -75,7 +75,7 @@ ul {
     background-color: #3882f6;
 }
 
-button {
+.home-button {
     padding: 10px 25px;
     font-size: 12px;
     color: #3882f6;
@@ -164,11 +164,31 @@ h2 {
 
 /* start cta */
 
-.sign-up-container {
+.signup-card {
     display: flex;
-    padding: 25px;
+    padding: 50px 100px;
     margin: 100px 0;
     background-color: #3882f6;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.signup-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: #f9faf8;
+
+}
+
+.signup-button {
+    border: solid 2px #f9faf8;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin-left: auto;
 }
 
 /* end cta */
+
