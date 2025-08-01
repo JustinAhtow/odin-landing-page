@@ -60,14 +60,10 @@ ul {
 .home-content {
     flex: 1;
     display: flex;
-    gap: 25px;
+    gap: 50px;
     flex-direction: column;
     align-items: start;
     color: #f9faf8;
-}
-
-.home-content > p {
-    color: ;
 }
 
 .home-image {
@@ -90,24 +86,89 @@ h1 {
     font-weight: 900;
 }
 
+/* end home */ 
+
+
+
+/* start info */
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    gap: 50px;
+}
+
+.card-container {
+    display: flex;
+    gap: 25px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+}
+
+.card-image {
+    border: solid 5px #3882f6;
+    border-radius: 10px;
+    color: #1F2937;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
 h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
 }
 
+/* end info */
+
+
+
+/* start qoute */
+
 #section3 {
     background-color: #e5e7eb;
 }
 
+.qoute-container {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+    gap: 25px;
+}
+
 .qoute {
     font-size: 36px;
-    font-style: light italic;
+    font-weight: 100;
+    font-style: italic;
     color: #1f2937;
 }
 
 .qoute-author {
     font-size: 24px;
-    font-style: 900;
+    font-weight: 900;
     color: #1f2937;
+    text-align: end;
 }
+
+/* end qoute */
+
+
+
+/* start cta */
+
+.sign-up-container {
+    display: flex;
+    padding: 25px;
+    margin: 100px 0;
+    background-color: #3882f6;
+}
+
+/* end cta */
